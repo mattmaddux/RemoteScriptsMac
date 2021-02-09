@@ -1,6 +1,6 @@
 #!/bin/bash
 
-URL_BREW='$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)'
+URL_BREW='https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh'
 
 echo -n '- Installing brew ... '
 echo | /usr/bin/ruby -e "$(curl -fsSL $URL_BREW)" > /dev/null
