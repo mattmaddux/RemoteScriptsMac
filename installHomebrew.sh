@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# install.sh
+#!/bin/bash
 
 URL_BREW='$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)'
 
